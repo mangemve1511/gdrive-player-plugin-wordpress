@@ -16,10 +16,10 @@ function video_play( $input ){
 	extract( shortcode_atts( array(
 		'input_url' =>   '',
 		'input_h'   =>   '360',
-		'input_w'	=>		'640'
+		'input_w'	=>'640'
 	), $input ));
-	$url = $input_url ;    // Tìm cách nhận giá trị từ  shortcode
-	$height = $input_h;	// Truyền vào 3 tham số
+	$url = $input_url ;    
+	$height = $input_h;	
 	$width = $input_w;
 	$tmp = explode("file/d/",$url);
 	$tmp2 = explode("/",$tmp[1]);
