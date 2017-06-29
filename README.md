@@ -11,10 +11,12 @@ Example: http://phimhay-hd.xyz
 
 
 
-If you play video from Google Drive, use shortcode: 
+If you play video from Google Drive, use shortcode:
+
 [gdrive input_url="https://drive.google.com/file/d/[DRIVEID]/view"]
 
 
 
 If you play video from stream link mp4 file, use shortcode:
+
 [gdrive input_url="[LINK MP4 FILE]" type_url="direct"]
